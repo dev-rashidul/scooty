@@ -1,0 +1,83 @@
+/* Min Width 1200px and Max Width 1399px */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-content {
+    padding: 30px 30px;
+  }
+
+  .scooter-overview-card-img img {
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Min Width 992px and Max Width 1199px */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content {
+    padding: 30px 30px;
+  }
+
+  .scooter-overview-card-img img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Min Width 768px and Max Width 991px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-content {
+    padding: 30px 30px;
+  }
+
+  .scooter-overview-card-img img {
+    width: 100%;
+    min-height: 180px;
+    max-height: 180px;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-content {
+    padding: 30px 20px;
+  }
+
+  .scooter-overview-card-img img {
+    width: 100%;
+    min-height: 220px;
+    max-height: 220px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-content h3 {
+    font-size: 25px;
+  }
+
+  .section-title h2,
+  .scooter-overview-card-content h4,
+  .review-title h3,
+  .reviewer-name h4,
+  .footer-title h3,
+  .map h3 {
+    font-size: 20px;
+  }
+
+  .review-content p,
+  .footer-content h5,
+  .footer-content li,
+  .footer-content li a {
+    font-size: 16px;
+  }
+}

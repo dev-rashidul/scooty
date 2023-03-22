@@ -1,0 +1,409 @@
+/* Base Styles CSS Start */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Styles CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 999;
+}
+
+.logo img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222a35;
+  padding: 0 10px !important;
+}
+
+.divider::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: #000000;
+}
+
+.cart-icon {
+  width: 50px;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  margin-top: -15px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.toggler-icon {
+  width: 25px;
+  height: 2px;
+  background-color: #e74c3c;
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #151515;
+}
+
+@media (max-width: 991px) {
+  .logo img {
+    max-width: 120px;
+  }
+
+  .navbar-toggler {
+    margin-top: -10px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .divider::before {
+    display: none;
+  }
+}
+
+/* Navigation Section CSS End */
+
+/* Header Bredcrumb Section CSS Start */
+
+.header-bredcrumb-wrapper {
+  padding-top: 130px;
+}
+
+.breadcrumb-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-menu::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -35px;
+  width: 100%;
+  height: 30px;
+  background: #677990;
+}
+
+.breadcrumb-menu li {
+  position: relative;
+}
+
+.breadcrumb-menu li::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -35px;
+  width: 100%;
+  height: 30px;
+  background: #3f464fb3;
+  z-index: 1;
+}
+
+.breadcrumb-menu li.active::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -35px;
+  width: 100%;
+  height: 30px;
+  background: #3f464f;
+  z-index: 11;
+}
+
+.breadcrumb-menu li a {
+  display: block;
+  width: 120px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.breadcrumb-menu li.active a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Header Bredcrumb Section CSS End */
+
+/* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Hero Section CSS Start */
+
+.hero-content {
+  background: rgba(34, 42, 53, 0.87);
+  margin-top: 80px;
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.hero-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Hero Section CSS End */
+
+/* Scooter Overview Section CSS Start */
+
+.scooter-overview-wrapper {
+  padding: 40px 0;
+}
+
+.section-title h2 {
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  padding-left: 10px;
+}
+
+.section-title h2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: #000000;
+}
+
+.scooter-overview-card-img {
+  position: relative;
+}
+
+.scooter-overview-card-img img {
+  width: 100%;
+  min-height: 350px;
+  max-height: 350px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scooter-overview-card-img::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(63, 70, 79, 0.45),
+      rgba(63, 70, 79, 0.45)
+    ),
+    rgba(63, 70, 79, 0.45);
+}
+
+.scooter-overview-card-img::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 50px;
+  background: #677990;
+}
+
+.scooter-overview-card-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+/* Scooter Overview Section CSS End */
+
+/* Reviews Section CSS Start  */
+
+.reviews-wrapper {
+  margin-bottom: 50px;
+}
+
+.reviews {
+  background: #d7dde4;
+  padding: 20px 10px;
+}
+
+.review-title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviewer-name img {
+  max-width: 130px;
+  width: 100%;
+}
+
+.reviewer-name h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3f464f;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.review-content p {
+  font-size: 18px;
+  color: #3f464f;
+}
+
+.more-reviews-btn a img {
+  width: 30px;
+}
+
+/* Reviews Section CSS End  */
+
+/* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-content-wrapper {
+  padding: 10px 0 20px;
+  border-top: 3px solid #000000;
+}
+
+.footer-title h3,
+.map h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.footer-content h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.footer-content h5,
+.footer-content li,
+.footer-content li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.footer-content li span {
+  font-weight: 700;
+}
+
+.map iframe {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  height: 100%;
+}
+
+/* Footer Part CSS End */
