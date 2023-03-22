@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scooty - Login</title>
+    <title>Scooty - Sign Up</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Country Phone Code with Flag CSS -->
+    <link
+      rel="stylesheet"
+      href="https://intl-tel-input.com/node_modules/intl-tel-input/build/css/intlTelInput.css?1549804213570"
+    />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -39,7 +45,7 @@
         <div class="header-bredcrumb-wrapper">
           <div class="container-fluid px-md-5">
             <div class="breadcrumb-menu">
-              <li class="active"><a href="#">Log in</a></li>
+              <li class="active"><a href="#">Sign up</a></li>
             </div>
           </div>
         </div>
@@ -59,18 +65,31 @@
         <div class="login-form-wrapper">
           <form>
             <div class="login-form">
+              <div class="d-flex justify-content-between">
+                <div class="form-input-field mb-3 pe-2">
+                  <input type="text" placeholder="First Name" />
+                </div>
+                <div class="form-input-field mb-3 ps-2">
+                  <input type="text" placeholder="Last Name" />
+                </div>
+              </div>
               <div class="form-input-field mb-3">
                 <input type="email" placeholder="Email address" />
+              </div>
+              <div class="form-input-field form-group md-group show-label mb-3">
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="+20123 456 78"
+                  value="+1 "
+                  required
+                />
               </div>
               <div class="form-input-field mb-3">
                 <input type="password" placeholder="Password" />
               </div>
-              <div class="checkbox mb-3">
-                <input type="checkbox" />
-                <label>Remember me</label>
-              </div>
               <div class="form-button-field">
-                <input type="submit" value="Log in" />
+                <input type="submit" value="Sign up" />
               </div>
             </div>
           </form>
@@ -84,6 +103,9 @@
 
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Country Phone Code with Flag JavaScript -->
+    <script src="https://intl-tel-input.com/node_modules/intl-tel-input/build/js/intlTelInput.js?1549804213570"></script>
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>

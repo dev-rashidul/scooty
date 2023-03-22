@@ -80,4 +80,8 @@
   .footer-content li a {
     font-size: 16px;
   }
+
+  .login-form-wrapper {
+    padding: 0 15px;
+  }
 }
