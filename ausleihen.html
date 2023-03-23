@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scooty - Ausleihen</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Header Section HTML Start -->
+
+      <section id="Header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid px-md-5">
+            <a class="logo" href="index.html"
+              ><img src="assets/images/logo.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav pl-md-5 pt-4 pt-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link cart-icon" href="cart.html"
+                    ><img src="assets/images/cart.svg" alt="cart"
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link divider" href="login.html">Log in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link divider" href="login.html">Sign up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Header Section HTML End -->
+
+      <!-- Header Bredcrumb Section HTML Start -->
+
+      <section id="Header-bredcrumb">
+        <div class="header-bredcrumb-wrapper">
+          <div class="container-fluid px-md-5">
+            <div class="breadcrumb-menu">
+              <li><a href="#">Home</a></li>
+              <li class="active"><a href="#">Ausleihen</a></li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Header Bredcrumb Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
+    <!-- Main Part HTML Start -->
+
+    <main>
+      <!-- Scooter Locations Section HTML Start -->
+
+      <section id="Scooter-locations">
+        <div class="scooter-locations-wrapper">
+          <div class="container-fluid px-md-5">
+            <div class="section-top">
+              <div class="section-title">
+                <h2>E-Scooter Standorte Mannheim</h2>
+              </div>
+            </div>
+            <div class="scooter-location pt-4">
+              <div class="row">
+                <div class="col-lg-4 col-xxl-3">
+                  <div class="scooter-location-img">
+                    <img src="assets/images/wasserturm.png" alt="wasserturm" />
+                  </div>
+                </div>
+                <div class="col-lg-8 col-xxl-9">
+                  <div class="scooter-location-content pt-4 pt-lg-0">
+                    <h3>Wasserturm</h3>
+                    <div class="d-lg-flex align-items-end">
+                      <h3>Friedrichsplatz · 68161 Mannheim</h3>
+                      <span class="ps-lg-2">in Google Maps anzeigen</span>
+                    </div>
+                    <div class="scooter-item mt-3">
+                      <div class="row align-items-end">
+                        <div class="col-lg-5">
+                          <div
+                            class="scooter-item-left d-flex align-items-center"
+                          >
+                            <p>Verfügbar sind 5x Henry Scooty</p>
+                            <img src="assets/images/scooty.png" alt="scooty" />
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div
+                            class="scooter-item-right d-lg-flex align-items-center"
+                          >
+                            <div
+                              class="d-flex scooter-item-right-text py-4 py-lg-0"
+                            >
+                              <form>
+                                <div class="scooter-form">
+                                  <div class="scooter-select">
+                                    <label>Anzahl:</label>
+                                    <select>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select">
+                                    <label>Mietdauer in h:</label>
+                                    <select>
+                                      <option value="5">5</option>
+                                      <option value="6">6</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select d-flex">
+                                    <label>Kosten:</label>
+                                    <p>10€</p>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="scooter-btn">
+                              <a href="#">Buchen</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="scooter-location pt-4">
+              <div class="row">
+                <div class="col-lg-4 col-xxl-3">
+                  <div class="scooter-location-img">
+                    <img src="assets/images/luisenpark.png" alt="luisenpark" />
+                  </div>
+                </div>
+                <div class="col-lg-8 col-xxl-9">
+                  <div class="scooter-location-content pt-4 pt-lg-0">
+                    <h3>Luisenpark</h3>
+                    <div class="d-lg-flex align-items-end">
+                      <h3>Theodor-Heuss-Anlage 2 · 68165 Mannheim</h3>
+                      <span class="ps-lg-2">in Google Maps anzeigen</span>
+                    </div>
+                    <div class="scooter-item mt-3">
+                      <div class="row align-items-end">
+                        <div class="col-lg-5">
+                          <div
+                            class="scooter-item-left d-flex align-items-center"
+                          >
+                            <p>Verfügbar sind 5x Henry Scooty</p>
+                            <img src="assets/images/scooty.png" alt="scooty" />
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div
+                            class="scooter-item-right d-lg-flex align-items-center"
+                          >
+                            <div
+                              class="d-flex scooter-item-right-text py-4 py-lg-0"
+                            >
+                              <form>
+                                <div class="scooter-form">
+                                  <div class="scooter-select">
+                                    <label>Anzahl:</label>
+                                    <select>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select">
+                                    <label>Mietdauer in h:</label>
+                                    <select>
+                                      <option value="5">5</option>
+                                      <option value="6">6</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select d-flex">
+                                    <label>Kosten:</label>
+                                    <p>10€</p>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="scooter-btn">
+                              <a href="#">Buchen</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="scooter-location pt-4">
+              <div class="row">
+                <div class="col-lg-4 col-xxl-3">
+                  <div class="scooter-location-img">
+                    <img src="assets/images/schloss.png" alt="schloss" />
+                  </div>
+                </div>
+                <div class="col-lg-8 col-xxl-9">
+                  <div class="scooter-location-content pt-4 pt-lg-0">
+                    <h3>Schloss</h3>
+                    <div class="d-lg-flex align-items-end">
+                      <h3>Bismarckstr. 1 · 68161 Mannheim</h3>
+                      <span class="ps-lg-2">in Google Maps anzeigen</span>
+                    </div>
+                    <div class="scooter-item mt-3">
+                      <div class="row align-items-end">
+                        <div class="col-lg-5">
+                          <div
+                            class="scooter-item-left d-flex align-items-center"
+                          >
+                            <p>Verfügbar sind 5x Henry Scooty</p>
+                            <img src="assets/images/scooty.png" alt="scooty" />
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div
+                            class="scooter-item-right d-lg-flex align-items-center"
+                          >
+                            <div
+                              class="d-flex scooter-item-right-text py-4 py-lg-0"
+                            >
+                              <form>
+                                <div class="scooter-form">
+                                  <div class="scooter-select">
+                                    <label>Anzahl:</label>
+                                    <select>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select">
+                                    <label>Mietdauer in h:</label>
+                                    <select>
+                                      <option value="5">5</option>
+                                      <option value="6">6</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select d-flex">
+                                    <label>Kosten:</label>
+                                    <p>10€</p>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="scooter-btn">
+                              <a href="#">Buchen</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="scooter-location pt-4">
+              <div class="row">
+                <div class="col-lg-4 col-xxl-3">
+                  <div class="scooter-location-img">
+                    <img
+                      src="assets/images/paradeplatz.png"
+                      alt="paradeplatz"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-8 col-xxl-9">
+                  <div class="scooter-location-content pt-4 pt-lg-0">
+                    <h3>Paradeplatz</h3>
+                    <div class="d-lg-flex align-items-end">
+                      <h3>Hohmann B 1 7a · 68159 Mannheim</h3>
+                      <span class="ps-lg-2">in Google Maps anzeigen</span>
+                    </div>
+                    <div class="scooter-item mt-3">
+                      <div class="row align-items-end">
+                        <div class="col-lg-5">
+                          <div
+                            class="scooter-item-left d-flex align-items-center"
+                          >
+                            <p>Verfügbar sind 5x Henry Scooty</p>
+                            <img src="assets/images/scooty.png" alt="scooty" />
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div
+                            class="scooter-item-right d-lg-flex align-items-center"
+                          >
+                            <div
+                              class="d-flex scooter-item-right-text py-4 py-lg-0"
+                            >
+                              <form>
+                                <div class="scooter-form">
+                                  <div class="scooter-select">
+                                    <label>Anzahl:</label>
+                                    <select>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select">
+                                    <label>Mietdauer in h:</label>
+                                    <select>
+                                      <option value="5">5</option>
+                                      <option value="6">6</option>
+                                    </select>
+                                  </div>
+                                  <div class="scooter-select d-flex">
+                                    <label>Kosten:</label>
+                                    <p>10€</p>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="scooter-btn">
+                              <a href="#">Buchen</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scooter Locations Section HTML End -->
+    </main>
+
+    <!-- Main Part HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper">
+        <div class="container-fluid px-md-5">
+          <div class="footer-content-wrapper">
+            <div class="footer-title">
+              <h3>Impressum</h3>
+            </div>
+            <div class="footer-content">
+              <h5>Scooty GbR</h5>
+              <ul>
+                <li>Coblitzallee 1-9 68163 Mannheim Deutschland</li>
+                <li>
+                  E-Mail:
+                  <a
+                    class="text-decoration-underline"
+                    href="mailto:info@scooty.com"
+                    >info@scooty.com</a
+                  >
+                </li>
+                <li>
+                  Telefon:
+                  <a href="tel:+49 (0) 1234 567890">+49 (0) 1234 567890</a>
+                </li>
+                <li>
+                  <span>Vertretungsberechtigte Gesellschafter: </span>Emma
+                  Kölsch, Cora Lehmann
+                </li>
+                <li><span>Registergericht: </span>Amtsgericht Mannheim</li>
+                <li>
+                  Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:
+                  DE123456789
+                </li>
+                <li>
+                  Inhaltlich Verantwortliche gemäß § 55 Abs. 2 RStV: Emma Kölsch
+                  und Cora Lehmann (Anschrift wie oben)
+                </li>
+                <li>
+                  <span>Haftungshinweis: </span>Trotz sorgfältiger inhaltlicher
+                  Kontrolle übernehmen wir keine Haftung für die Inhalte
+                  externer Links. Für den Inhalt der verlinkten Seiten sind
+                  ausschließlich deren Betreiber verantwortlich.
+                </li>
+              </ul>
+            </div>
+            <div class="map pt-4">
+              <h3>Map</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.5903627080693!2d8.532728665857062!3d49.47335431516248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797cf2364dcecfd%3A0x261c5aad9b1c89b2!2sCoblitzallee%201-9%2C%2068163%20Mannheim%2C%20Germany!5e0!3m2!1sen!2sbd!4v1679506699165!5m2!1sen!2sbd"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

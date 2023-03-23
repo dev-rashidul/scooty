@@ -452,3 +452,123 @@ Login Page CSS
 .iti.iti--allow-dropdown {
   width: 100%;
 }
+
+/* ===========***===========
+Ausleihen Page CSS
+===========***=========== */
+
+.scooter-locations-wrapper {
+  padding: 60px 0 30px;
+}
+
+.scooter-location-img {
+  position: relative;
+}
+
+.scooter-location-img img {
+  width: 100%;
+  min-height: 350px;
+  max-height: 350px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scooter-location-img::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(63, 70, 79, 0.45),
+      rgba(63, 70, 79, 0.45)
+    ),
+    rgba(63, 70, 79, 0.45);
+}
+
+.scooter-location-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.scooter-location-content span {
+  font-size: 15px;
+  color: #677990;
+  padding-bottom: 10px;
+}
+
+.scooter-item {
+  background: rgba(34, 42, 53, 0.06);
+  padding: 20px;
+}
+
+.scooter-item-left p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.scooter-item-left img {
+  width: 170px;
+  min-height: 180px;
+  max-height: 180px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scooter-select {
+  padding-top: 10px;
+}
+
+.scooter-select label,
+.scooter-select p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.scooter-select select {
+  width: 80px;
+  border: none;
+  background: transparent;
+}
+
+.scooter-btn {
+  margin-left: 50px;
+}
+
+.scooter-btn a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #677990;
+  padding: 7px 50px;
+}
+/* 
+
+============***============
+Warenkorb Page CSS
+============***============ */
+
+.scooter-cart-btn {
+  margin-left: 50px;
+}
+
+.scooter-cart-btn a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #4b5563;
+  padding: 7px 40px;
+}
+
+.breadcrumb-menu li img {
+  width: 30px;
+  margin-left: 20px;
+  margin-right: -10px;
+}
