@@ -531,6 +531,12 @@ Ausleihen Page CSS
   color: #000000;
 }
 
+.scooter-select p {
+  font-size: 18px;
+  color: #000000;
+  padding-left: 5px;
+}
+
 .scooter-select select {
   width: 80px;
   border: none;
