@@ -525,8 +525,7 @@ Ausleihen Page CSS
   padding-top: 10px;
 }
 
-.scooter-select label,
-.scooter-select p {
+.scooter-select label {
   font-size: 18px;
   font-weight: 500;
   color: #000000;
@@ -536,6 +535,10 @@ Ausleihen Page CSS
   width: 80px;
   border: none;
   background: transparent;
+}
+
+.scooter-select select:focus {
+  outline: none;
 }
 
 .scooter-btn {
