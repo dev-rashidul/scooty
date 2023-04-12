@@ -128,4 +128,8 @@
   .order-form-buttons li {
     padding: 0 12px 20px 0;
   }
+
+  .order-payment-method img {
+    width: 120px;
+  }
 }

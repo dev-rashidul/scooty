@@ -112,167 +112,50 @@
 
       <!-- Order Overview Section HTML End -->
 
-      <!-- Order Overview Form Section HTML Start -->
+      <!-- Order Payment Section HTML Start -->
 
-      <section id="Order-overview-form">
-        <div class="order-overview-form-wrapper">
+      <section id="Order-payment">
+        <div class="order-payment-wrapper">
           <div class="container-fluid px-md-5">
-            <div class="order-form-container">
-              <div class="order-form-buttons">
-                <ul
-                  class="nav nav-pills align-items-center mb-3"
-                  id="pills-tab"
-                  role="tablist"
-                >
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link active"
-                      id="pills-herr-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-herr"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-herr"
-                      aria-selected="true"
-                    >
-                      <span></span>
-                      Herr
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link"
-                      id="pills-visa-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-frau"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-frau"
-                      aria-selected="false"
-                      tabindex="-1"
-                    >
-                      <span></span>
-                      Frau
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link"
-                      id="pills-ohne-angabe-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-ohne-angabe"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-ohne-angabe"
-                      aria-selected="false"
-                      tabindex="-1"
-                    >
-                      <span></span>
-                      Ohne Angabe
-                    </button>
-                  </li>
-                </ul>
-              </div>
-              <form>
-                <div class="tab-content" id="pills-tabContent">
-                  <div
-                    class="tab-pane fade show active"
-                    id="pills-herr"
-                    role="tabpanel"
-                    aria-labelledby="pills-herr-tab"
-                    tabindex="0"
-                  >
-                    <div class="order-form">
-                      <div class="order-input-field">
-                        <input type="text" placeholder="Vorname" />
-                      </div>
-                      <div class="order-input-field">
-                        <input type="text" placeholder="Nachname" />
-                      </div>
-                      <div class="d-flex">
-                        <div class="order-input-field w-40">
-                          <input type="text" placeholder="PLZ" />
-                        </div>
-                        <div class="order-input-field w-60 ms-3">
-                          <input type="text" placeholder="Stadt" />
-                        </div>
-                      </div>
-                      <div class="order-input-field">
-                        <input type="email" placeholder="E-Mail" />
-                      </div>
-                      <div class="order-button-field">
-                        <input type="submit" value="Weiter" />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="tab-pane fade"
-                    id="pills-frau"
-                    role="tabpanel"
-                    aria-labelledby="pills-frau-tab"
-                    tabindex="0"
-                  >
-                    <div class="order-form">
-                      <div class="order-input-field">
-                        <input type="text" placeholder="Vorname" />
-                      </div>
-                      <div class="order-input-field">
-                        <input type="text" placeholder="Nachname" />
-                      </div>
-                      <div class="d-flex">
-                        <div class="order-input-field w-40">
-                          <input type="text" placeholder="PLZ" />
-                        </div>
-                        <div class="order-input-field w-60 ms-3">
-                          <input type="text" placeholder="Stadt" />
-                        </div>
-                      </div>
-                      <div class="order-input-field">
-                        <input type="email" placeholder="E-Mail" />
-                      </div>
-                      <div class="order-button-field">
-                        <input type="submit" value="Weiter" />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="tab-pane fade"
-                    id="pills-ohne-angabe"
-                    role="tabpanel"
-                    aria-labelledby="pills-ohne-angabe-tab"
-                    tabindex="0"
-                  >
-                    <div class="order-form">
-                      <div class="order-input-field">
-                        <input type="text" placeholder="Vorname" />
-                      </div>
-                      <div class="order-input-field">
-                        <input type="text" placeholder="Nachname" />
-                      </div>
-                      <div class="d-flex">
-                        <div class="order-input-field w-40">
-                          <input type="text" placeholder="PLZ" />
-                        </div>
-                        <div class="order-input-field w-60 ms-3">
-                          <input type="text" placeholder="Stadt" />
-                        </div>
-                      </div>
-                      <div class="order-input-field">
-                        <input type="email" placeholder="E-Mail" />
-                      </div>
-                      <div class="order-button-field">
-                        <input type="submit" value="Weiter" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </form>
+            <div class="order-payment-container">
+              <a
+                href="#"
+                class="active order-payment-method d-flex justify-content-between align-items-center"
+              >
+                <p>Amazon Pay</p>
+                <img
+                  src="assets/images/amazon_pay-logo.png"
+                  alt="amazon_pay-logo"
+                />
+              </a>
+              <a
+                href="#"
+                class="order-payment-method d-flex justify-content-between align-items-center"
+              >
+                <p>Paypal</p>
+                <img src="assets/images/paypal-logo.png" alt="paypal-logo" />
+              </a>
+              <a
+                href="#"
+                class="order-payment-method d-flex justify-content-between align-items-center"
+              >
+                <p>Kreditkarte</p>
+                <img src="assets/images/visa.png" alt="visa" />
+              </a>
+            </div>
+            <div
+              class="order-payment-buttons d-md-flex justify-content-between align-items-center pt-5 mt-5"
+            >
+              <a href="#">Zurück</a>
+              <a class="mt-4 mt-md-0" href="#"
+                >Bestellung kostenpflichtig abschließen</a
+              >
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Order Overview Form Section HTML End -->
+      <!-- Order Payment Section HTML End -->
     </main>
 
     <!-- Main Part HTML End -->
@@ -340,10 +223,21 @@
 
     <!-- Footer Part HTML End -->
 
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+      // JavaScript for Payment Method Switch
+
+      $(document).on("click", ".order-payment-method", function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
   </body>
 </html>

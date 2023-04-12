@@ -725,3 +725,54 @@ Bestellung Page CSS
   padding: 10px;
   border: none;
 }
+
+/* =========***==========
+Order Payment CSS
+=========***========== */
+
+.order-payment-wrapper {
+  padding: 50px 0 100px;
+}
+
+.order-payment-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #cfcbca;
+  border-radius: 10px;
+}
+
+.order-payment-method {
+  padding: 40px 30px;
+  border-bottom: 1px solid #cfcbca;
+}
+
+.order-payment-method.active,
+.order-payment-method.active:last-child {
+  border: 2px solid #d6001f;
+}
+
+.order-payment-method:last-child {
+  border-bottom: none;
+}
+
+.order-payment-method p {
+  font-size: 18px;
+  color: #504e4c;
+  margin: 0;
+}
+
+.order-payment-method img {
+  width: 200px;
+}
+
+.order-payment-buttons a {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  background: #f79230;
+  padding: 8px;
+}
