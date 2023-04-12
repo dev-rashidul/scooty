@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scooty - Bestellung</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Header Section HTML Start -->
+
+      <section id="Header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid px-md-5">
+            <a class="logo" href="index.html"
+              ><img src="assets/images/logo.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav pl-md-5 pt-4 pt-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link cart-icon" href="cart.html"
+                    ><img src="assets/images/cart.svg" alt="cart"
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link divider" href="login.html">Log in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link divider" href="login.html">Sign up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Header Section HTML End -->
+
+      <!-- Header Bredcrumb Section HTML Start -->
+
+      <section id="Header-bredcrumb">
+        <div class="header-bredcrumb-wrapper">
+          <div class="container-fluid px-md-5">
+            <div class="breadcrumb-menu">
+              <li class="active"><a href="#">Bestellung</a></li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Header Bredcrumb Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
+    <!-- Main Part HTML Start -->
+
+    <main>
+      <!-- Order Overview Section HTML Start -->
+
+      <section id="Order-overview">
+        <div class="order-overview-wrapper">
+          <div class="container-fluid px-md-5">
+            <div class="section-title">
+              <h2>E-Scooter Bestellung als Gast</h2>
+            </div>
+            <div class="row overview-container align-items-center">
+              <div class="col-lg-6 p-0">
+                <div class="overview-left d-md-flex">
+                  <h2>Bestellübersicht</h2>
+                  <div class="ps-md-5 ms-xl-5">
+                    <p>Anzahl: <span>1</span></p>
+                    <p>Mietdauer in h: <span>5</span></p>
+                    <p>Gesamtkosten: <span>50€</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 p-0 mt-3 mt-lg-0">
+                <div class="overview-right float-lg-end pe-lg-5">
+                  <h2>Wasserturm: Friedrichsplatz · 68161 Mannheim</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order Overview Section HTML End -->
+
+      <!-- Order Overview Form Section HTML Start -->
+
+      <section id="Order-overview-form">
+        <div class="order-overview-form-wrapper">
+          <div class="container-fluid px-md-5">
+            <div class="order-form-container">
+              <div class="order-form-buttons">
+                <ul
+                  class="nav nav-pills align-items-center mb-3"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="pills-herr-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-herr"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-herr"
+                      aria-selected="true"
+                    >
+                      <span></span>
+                      Herr
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-visa-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-frau"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-frau"
+                      aria-selected="false"
+                      tabindex="-1"
+                    >
+                      <span></span>
+                      Frau
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-ohne-angabe-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-ohne-angabe"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-ohne-angabe"
+                      aria-selected="false"
+                      tabindex="-1"
+                    >
+                      <span></span>
+                      Ohne Angabe
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <form>
+                <div class="tab-content" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-herr"
+                    role="tabpanel"
+                    aria-labelledby="pills-herr-tab"
+                    tabindex="0"
+                  >
+                    <div class="order-form">
+                      <div class="order-input-field">
+                        <input type="text" placeholder="Vorname" />
+                      </div>
+                      <div class="order-input-field">
+                        <input type="text" placeholder="Nachname" />
+                      </div>
+                      <div class="d-flex">
+                        <div class="order-input-field w-40">
+                          <input type="text" placeholder="PLZ" />
+                        </div>
+                        <div class="order-input-field w-60 ms-3">
+                          <input type="text" placeholder="Stadt" />
+                        </div>
+                      </div>
+                      <div class="order-input-field">
+                        <input type="email" placeholder="E-Mail" />
+                      </div>
+                      <div class="order-button-field">
+                        <input type="submit" value="Weiter" />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-frau"
+                    role="tabpanel"
+                    aria-labelledby="pills-frau-tab"
+                    tabindex="0"
+                  >
+                    Frau Contents Goes here
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-ohne-angabe"
+                    role="tabpanel"
+                    aria-labelledby="pills-ohne-angabe-tab"
+                    tabindex="0"
+                  >
+                    Ohne Angabe Contents Goes here
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order Overview Form Section HTML End -->
+    </main>
+
+    <!-- Main Part HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper">
+        <div class="container-fluid px-md-5">
+          <div class="footer-content-wrapper">
+            <div class="footer-title">
+              <h3>Impressum</h3>
+            </div>
+            <div class="footer-content">
+              <h5>Scooty GbR</h5>
+              <ul>
+                <li>Coblitzallee 1-9 68163 Mannheim Deutschland</li>
+                <li>
+                  E-Mail:
+                  <a
+                    class="text-decoration-underline"
+                    href="mailto:info@scooty.com"
+                    >info@scooty.com</a
+                  >
+                </li>
+                <li>
+                  Telefon:
+                  <a href="tel:+49 (0) 1234 567890">+49 (0) 1234 567890</a>
+                </li>
+                <li>
+                  <span>Vertretungsberechtigte Gesellschafter: </span>Emma
+                  Kölsch, Cora Lehmann
+                </li>
+                <li><span>Registergericht: </span>Amtsgericht Mannheim</li>
+                <li>
+                  Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:
+                  DE123456789
+                </li>
+                <li>
+                  Inhaltlich Verantwortliche gemäß § 55 Abs. 2 RStV: Emma Kölsch
+                  und Cora Lehmann (Anschrift wie oben)
+                </li>
+                <li>
+                  <span>Haftungshinweis: </span>Trotz sorgfältiger inhaltlicher
+                  Kontrolle übernehmen wir keine Haftung für die Inhalte
+                  externer Links. Für den Inhalt der verlinkten Seiten sind
+                  ausschließlich deren Betreiber verantwortlich.
+                </li>
+              </ul>
+            </div>
+            <div class="map pt-4">
+              <h3>Map</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.5903627080693!2d8.532728665857062!3d49.47335431516248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797cf2364dcecfd%3A0x261c5aad9b1c89b2!2sCoblitzallee%201-9%2C%2068163%20Mannheim%2C%20Germany!5e0!3m2!1sen!2sbd!4v1679506699165!5m2!1sen!2sbd"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

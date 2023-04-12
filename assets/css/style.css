@@ -204,7 +204,7 @@ nav.navbar {
 
 .breadcrumb-menu li a {
   display: block;
-  width: 120px;
+  width: 130px;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -580,4 +580,148 @@ Warenkorb Page CSS
   width: 30px;
   margin-left: 20px;
   margin-right: -10px;
+}
+
+/* ============***============
+Client Page CSS
+============***============ */
+
+.guest-order-br li a {
+  width: 170px;
+}
+
+.guest-order-btn {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.guest-order-btn a {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  background: #f79230;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* ============***============
+Bestellung Page CSS
+============***============ */
+
+.order-overview-wrapper {
+  padding: 65px 0;
+}
+
+.overview-container {
+  background: rgba(34, 42, 53, 0.06);
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.overview-left h2,
+.overview-right h2 {
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.overview-left p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.order-overview-form-wrapper {
+  padding: 40px 0 120px;
+}
+
+.order-form-container {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+.order-form-buttons li {
+  padding: 0 80px 20px 0;
+}
+
+.order-form-buttons .nav-link span {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border: 0.5px solid #727272;
+  border-radius: 100%;
+}
+
+.order-form-buttons .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #606060;
+  padding: 0 !important;
+}
+
+.order-form-buttons .nav-link.active {
+  color: #606060;
+  background: none;
+}
+
+.order-form-buttons .nav-link.active span {
+  border: 0.5px solid #727272;
+}
+
+.order-form-buttons .nav-link.active span::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 13px;
+  height: 13px;
+  background: #d6001f;
+  border-radius: 100%;
+}
+
+.order-input-field input {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  padding: 5px 0;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 3px solid #a4a2a1;
+}
+
+.order-input-field input:focus {
+  outline: 0;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.order-button-field input {
+  display: block;
+  width: 90%;
+  margin: 70px auto 0;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  background: #f79230;
+  padding: 10px;
+  border: none;
 }

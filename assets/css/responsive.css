@@ -86,7 +86,9 @@
   .review-title h3,
   .reviewer-name h4,
   .footer-title h3,
-  .map h3 {
+  .map h3,
+  .overview-left h2,
+  .overview-right h2 {
     font-size: 20px;
   }
 
@@ -121,5 +123,9 @@
 
   .scooter-btn {
     margin-left: 0px;
+  }
+
+  .order-form-buttons li {
+    padding: 0 12px 20px 0;
   }
 }
